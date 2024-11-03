@@ -389,7 +389,7 @@ footer {
     }
 
     .mainSuscr {
-        height: 100vh;
+        height: 150vh;
 
     }
 
@@ -529,7 +529,7 @@ footer {
     }
 
     .masInfoSus {
-        margin-top: 20%;
+        margin-top: 50%;
     }
 
     /* footer*/
@@ -568,7 +568,9 @@ footer {
     }
 
     .footQuien {
-        margin-top: 20%;
+        height: 30vh;
+        position: fixed;
+        bottom: 0;
     }
 
 }
