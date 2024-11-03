@@ -324,7 +324,7 @@ footer {
 
     .logo {
         margin: 0%;
-        width: 70px;
+        width: 90px;
     }
 
     .Titulo {
@@ -366,7 +366,7 @@ footer {
     }
 
     .catalogos {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 3%;
     }
 
@@ -390,8 +390,13 @@ footer {
 
     }
 
+    .mainSuscr {
+        width: 80vh;
+
+    }
+
     .relleno {
-        width: 600px;
+        width: 650px;
         margin-left: 10%;
     }
 
@@ -415,14 +420,14 @@ footer {
         width: 300px;
         margin: 1%;
         border-radius: 20px;
-        background-color: rgba(221, 160, 221, 0.39);
+        background-color: rgba(185, 149, 185, 0.205);
     }
 
 
     img {
         width: 80px;
         margin-left: 32%;
-        padding-top: 5%;
+        padding-top: 10%;
     }
 
     h2 {
@@ -454,6 +459,10 @@ footer {
         grid-template-columns: 100%;
         grid-template-rows: 30% 30% 30%;
         text-align: center;
+
+        h3 {
+            margin-left: 0%;
+        }
     }
 
 
@@ -488,7 +497,7 @@ footer {
     /* footer*/
 
     footer {
-        grid-template-columns: 30% 30% 40%;
+        grid-template-columns: 40% 25% 35%;
     }
 
     .todosLosD {
