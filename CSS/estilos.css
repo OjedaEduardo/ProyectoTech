@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kablammo&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    min-width: 100vh;
+    background-color: rgb(238, 73, 87);
+    display: grid;
+    grid-template-columns: 10% 20% 70%;
+    grid-template-rows: 100%;
+    height: 22vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 100px;
+    border-radius: 30px;
+
+}
+
+header h1 {
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: "Kablammo", system-ui;
+}
+
+.tituloo:hover {
+    color: black;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 25px;
+    margin-bottom: 1%;
+    background-color: white;
+    border-radius: 30% 10%;
+}
+
+ul li:hover {
+    box-shadow: 0px 0px 40px rgb(245, 75, 89);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(245, 75, 89);
+}
+
+.dosPartes {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+}
+
+.catalogos {
+    font-size: 25px;
+    margin-top: 0%;
+}
+
+.fa-solid.fa-cart-shopping {
+    margin-left: 80%;
+    font-size: 60px;
+    color: rgba(10, 10, 10, 0.479);
+    position: fixed;
+    top: 10px;
+    left: 170px;
+}
+
+.fa-solid.fa-cart-shopping:hover {
+    color: black;
+}
+
+/* MAIN----*/
+main {
+    margin: 0%;
+    padding: 0%;
+    min-width: 100vh;
+}
+
+.divCarrito {
+    height: 40vh;
+}
+
+main h1 {
+    margin-top: 5%;
+    margin-left: 40%;
+
+}
+
+h2 {
+    margin-top: 2%;
+    margin-left: 40%;
+
+}
+
+/*index*/
+.relleno {
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+
+.tituloIndex {
+    margin-left: 25%;
+}
+
+/**/
+
+.Libros {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.LibrosIndex {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.libro {
+    margin: 5%;
+}
+
+.libroIndex {
+    margin: 5%;
+}
+
+.masInfo {
+    min-width: 820px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: 100%;
+}
+
+.i1 {
+    background-color: rgba(142, 204, 142, 0.712);
+    padding: 20px;
+}
+
+.fa-solid.fa-truck-arrow-right {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+.i2 {
+    background-color: rgba(209, 170, 170, 0.671);
+    padding: 20px;
+}
+
+.i3 {
+    background-color: rgba(174, 171, 218, 0.61);
+    padding: 20px;
+}
+
+.fa-solid.fa-envelope {
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+/* */
+.presen {
+    width: 700px;
+    margin: 20px auto;
+    font-size: 21px;
+}
+
+button {
+    margin: 10px;
+    margin-left: 30px;
+    margin-bottom: 0%;
+    background-color: rgb(202, 179, 228);
+    border: double rgb(209, 170, 170);
+
+}
+
+/* suscricion*/
+.mainSuscr {
+    background-color: white;
+
+}
+
+.suscricion {
+    width: 1100px;
+    height: 400px;
+    margin: 40px auto;
+    margin-bottom: 2%;
+    background-color: rgba(243, 206, 209, 0.822);
+    border-radius: 20px;
+}
+
+
+.h1Sus {
+    margin: 0;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(245, 75, 89);
+    text-align: center;
+}
+
+.form {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#nombre {
+    border: dashed rgb(142, 204, 142);
+}
+
+#nombre:hover {
+    border: double rgb(142, 204, 142);
+}
+
+#apellido {
+    border: dashed rgb(209, 170, 170);
+}
+
+#apellido:hover {
+    border: double rgb(209, 170, 170);
+}
+
+#email {
+    border: dashed rgb(174, 171, 218);
+}
+
+#email:hover {
+    border: double rgb(174, 171, 218);
+}
+
+
+/* Quienes somos*/
+.somosParrafo {
+    width: 100%;
+}
+
+.quinesSomos {
+    width: 700px;
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+.logoSegundo {
+    width: 300px;
+    margin: 0% auto;
+}
+
+.logoEd {
+    width: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* PIE ----*/
+footer {
+    min-width: 100vh;
+    background-color: rgb(238, 73, 87);
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 100%;
+}
+
+.copy {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.redes {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.qsomos {
+    margin-top: 10%;
+    font-size: 20px;
+
+}
+
+.somos:hover {
+    color: white;
+    box-shadow: 0px 0px 40px gray;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* header */
+    header {
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "LoGo Titulo"
+            "dosPartes  dosPartes"
+        ;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+
+    .LoGo {
+        grid-area: LoGo;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        margin: 0%;
+        width: 60px;
+    }
+
+    .Titulo {
+        grid-area: Titulo;
+        margin-top: 3%;
+    }
+
+    .dosPartes {
+        grid-area: dosPartes;
+    }
+
+    header h1 {
+        margin-top: 10px;
+        margin-left: 10%;
+        font-size: 30px;
+
+    }
+
+    .dosPartes {
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 50%;
+        grid-template-areas: "ctlogos carrito"
+        ;
+    }
+
+    .ctlogos {
+        grid-area: ctlogos;
+    }
+
+    nav {
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+
+    ul li {
+        padding: 0px 15px;
+        margin-bottom: 1%;
+        background-color: white;
+    }
+
+    .catalogos {
+        font-size: 15px;
+        margin-top: 3%;
+    }
+
+    .carrito {
+        grid-area: carrito;
+    }
+
+    .fa-solid.fa-cart-shopping {
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 2.5%;
+
+    }
+
+    /*MAin */
+
+    /*index */
+    main h1 {
+
+        margin-left: 20%;
+
+    }
+
+    .relleno {
+        width: 500px;
+        margin-left: 2%;
+    }
+
+    .Libros {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        margin-left: 5%;
+        margin: 10%;
+    }
+
+    .LibrosIndex {
+        grid-template-columns: repeat(4, 140px);
+        margin: 1%;
+    }
+
+    .libroIndex {
+        margin: 1%;
+        margin-right: 3%;
+    }
+
+    .libro {
+        width: 300px;
+        margin: 1%;
+        border-radius: 20px;
+        background-color: rgba(221, 160, 221, 0.39);
+    }
+
+
+    img {
+        width: 80px;
+        margin-left: 32%;
+        padding-top: 5%;
+    }
+
+    h3 {
+        margin-left: 25%;
+    }
+
+    p {
+        margin-left: 32%;
+    }
+
+    button {
+        margin-left: 32%;
+    }
+
+    .tituloIndex {
+        margin-left: 15%;
+    }
+
+    h2 {
+        margin-left: 20%;
+    }
+
+    .masInfo {
+        margin-top: 25px;
+        min-width: 500px;
+        margin-left: 2%;
+        margin-right: 2%;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+        text-align: center;
+    }
+
+
+    .fa-solid.fa-truck-arrow-right {
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+
+    .fa-solid.fa-envelope {
+        margin-top: 0%;
+    }
+
+
+    .presen {
+        width: 300px;
+        margin: 20px auto;
+        font-size: 15px;
+    }
+
+    .suscricion {
+        width: 500px;
+        height: 350px;
+        margin: 40px auto;
+        background-color: white;
+    }
+
+    .quinesSomos {
+        width: 500px;
+        margin: 15px auto;
+    }
+
+    /* footer*/
+
+    footer {
+        grid-template-columns: 50% 20% 30%;
+    }
+
+
+}
