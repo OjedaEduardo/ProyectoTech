@@ -399,7 +399,8 @@ footer {
     }
 
     .Libros {
-        grid-template-columns: repeat(2, 450px);
+        grid-template-columns: repeat(2, 420px);
+        margin-left: 5%;
         margin-left: 5%;
     }
 
@@ -415,7 +416,7 @@ footer {
 
     .libro {
         width: 400px;
-        margin: 1%;
+        margin: 5%;
         border-radius: 20px;
         background-color: rgba(223, 150, 223, 0.103);
     }
@@ -425,6 +426,10 @@ footer {
         width: 250px;
         margin-left: 15%;
         padding-top: 10%;
+    }
+
+    .imgIndex {
+        width: 100px;
     }
 
     h2 {
