@@ -528,6 +528,10 @@ footer {
         margin: 15px auto;
     }
 
+    .masInfoSus {
+        margin-top: 20%;
+    }
+
     /* footer*/
 
     footer {
@@ -563,5 +567,8 @@ footer {
         margin: 0%;
     }
 
+    .footQuien {
+        margin-top: 20%;
+    }
 
 }
