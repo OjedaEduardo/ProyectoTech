@@ -389,7 +389,7 @@ footer {
     }
 
     .mainSuscr {
-        width: 100vh;
+        height: 100vh;
 
     }
 
@@ -415,10 +415,10 @@ footer {
     }
 
     .libro {
-        width: 390px;
+        width: 380px;
         margin: 5%;
         border-radius: 20px;
-        background-color: rgba(223, 150, 223, 0.103);
+        background-color: rgb(223, 150, 223);
     }
 
 
@@ -467,6 +467,10 @@ footer {
         h3 {
             margin-left: 0%;
         }
+
+        p {
+            margin-left: 0%;
+        }
     }
 
     .i1 {
@@ -506,8 +510,13 @@ footer {
     .suscricion {
         width: 500px;
         height: 350px;
-        margin: 40px auto;
+        margin: 80px auto;
         background-color: white;
+    }
+
+    .form {
+        margin-top: 8%;
+        font-size: 1.8rem;
     }
 
     .quinesSomos {
