@@ -388,6 +388,10 @@ footer {
         margin-left: 30%;
     }
 
+    .tituloIndex {
+        width: 400px;
+    }
+
     .mainSuscr {
         height: 150vh;
 
@@ -405,7 +409,7 @@ footer {
     }
 
     .LibrosIndex {
-        grid-template-columns: repeat(4, 150px);
+        grid-template-columns: repeat(4, 200px);
         margin: 5%;
     }
 
