@@ -324,7 +324,7 @@ footer {
 
     .logo {
         margin: 0%;
-        width: 60px;
+        width: 70px;
     }
 
     .Titulo {
@@ -339,7 +339,7 @@ footer {
     header h1 {
         margin-top: 10px;
         margin-left: 10%;
-        font-size: 30px;
+        font-size: 40px;
 
     }
 
@@ -491,7 +491,11 @@ footer {
     /* footer*/
 
     footer {
-        grid-template-columns: 50% 20% 30%;
+        grid-template-columns: 30% 30% 40%;
+    }
+
+    .todosLosD {
+        margin: 0%;
     }
 
 
