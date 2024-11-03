@@ -396,10 +396,7 @@ footer {
     }
 
     .Libros {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        flex-direction: column;
+        grid-template-columns: repeat(2, 350px);
         margin-left: 5%;
         margin: 10%;
     }
