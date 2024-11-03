@@ -344,7 +344,7 @@ footer {
     }
 
     .dosPartes {
-        grid-template-columns: 90% 10%;
+        grid-template-columns: 95% 5%;
         grid-template-rows: 50%;
         grid-template-areas: "ctlogos carrito"
         ;
@@ -366,7 +366,7 @@ footer {
     }
 
     .catalogos {
-        font-size: 15px;
+        font-size: 30px;
         margin-top: 3%;
     }
 
@@ -391,8 +391,8 @@ footer {
     }
 
     .relleno {
-        width: 500px;
-        margin-left: 2%;
+        width: 600px;
+        margin-left: 10%;
     }
 
     .Libros {
@@ -405,13 +405,13 @@ footer {
     }
 
     .LibrosIndex {
-        grid-template-columns: repeat(4, 140px);
-        margin: 1%;
+        grid-template-columns: repeat(4, 150px);
+        margin: 5%;
     }
 
     .libroIndex {
-        margin: 1%;
-        margin-right: 3%;
+        margin: 3%;
+        margin-left: 30%;
     }
 
     .libro {
@@ -426,6 +426,10 @@ footer {
         width: 80px;
         margin-left: 32%;
         padding-top: 5%;
+    }
+
+    h2 {
+        margin-left: 40%;
     }
 
     h3 {
@@ -444,9 +448,6 @@ footer {
         margin-left: 15%;
     }
 
-    h2 {
-        margin-left: 20%;
-    }
 
     .masInfo {
         margin-top: 25px;
