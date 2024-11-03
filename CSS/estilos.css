@@ -344,7 +344,7 @@ footer {
     }
 
     .dosPartes {
-        grid-template-columns: 95% 5%;
+        grid-template-columns: 100% 0%;
         grid-template-rows: 50%;
         grid-template-areas: "ctlogos carrito"
         ;
@@ -385,9 +385,7 @@ footer {
 
     /*index */
     main h1 {
-
-        margin-left: 20%;
-
+        margin-left: 30%;
     }
 
     .mainSuscr {
@@ -401,9 +399,8 @@ footer {
     }
 
     .Libros {
-        grid-template-columns: repeat(2, 350px);
+        grid-template-columns: repeat(2, 450px);
         margin-left: 5%;
-        margin: 10%;
     }
 
     .LibrosIndex {
@@ -417,25 +414,26 @@ footer {
     }
 
     .libro {
-        width: 300px;
+        width: 400px;
         margin: 1%;
         border-radius: 20px;
-        background-color: rgba(185, 149, 185, 0.205);
+        background-color: rgba(223, 150, 223, 0.103);
     }
 
 
     img {
-        width: 80px;
-        margin-left: 32%;
+        width: 250px;
+        margin-left: 15%;
         padding-top: 10%;
     }
 
     h2 {
-        margin-left: 40%;
+        margin-left: 30%;
     }
 
     h3 {
         margin-left: 25%;
+        font-size: 16px;
     }
 
     p {
@@ -456,6 +454,7 @@ footer {
         min-width: 500px;
         margin-left: 2%;
         margin-right: 2%;
+        margin-bottom: 0%;
         grid-template-columns: 100%;
         grid-template-rows: 30% 30% 30%;
         text-align: center;
@@ -465,19 +464,36 @@ footer {
         }
     }
 
+    .i1 {
+        background-color: rgba(142, 204, 142, 0.151);
+    }
 
     .fa-solid.fa-truck-arrow-right {
         margin-top: 0%;
         margin-left: 5%;
     }
 
+    .i2 {
+        background-color: rgba(209, 170, 170, 0.13);
+    }
+
+    .i3 {
+        background-color: rgba(174, 171, 218, 0.123);
+
+    }
+
+
     .fa-solid.fa-envelope {
         margin-top: 0%;
     }
 
+    .pInfo {
+        margin-left: 0%;
+    }
+
 
     .presen {
-        width: 300px;
+        width: 500px;
         margin: 20px auto;
         font-size: 15px;
     }
@@ -497,7 +513,32 @@ footer {
     /* footer*/
 
     footer {
-        grid-template-columns: 40% 25% 35%;
+        background-color: rgba(238, 73, 87, 0.116);
+        height: 20vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 40% 30%;
+        grid-template-areas: "qsomos"
+            "redes"
+            "copy";
+    }
+
+    .copy {
+        grid-area: copy;
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .redes {
+        grid-area: redes;
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .qsomos {
+        grid-area: qsomos;
+        text-align: center;
+        margin-top: 2%;
+
     }
 
     .todosLosD {
