@@ -451,6 +451,8 @@ footer {
 
     button {
         margin-left: 32%;
+        width: 150px;
+        padding: 2.5%;
     }
 
     .tituloIndex {
@@ -514,7 +516,7 @@ footer {
 
     .suscricion {
         width: 500px;
-        height: 70vh;
+        height: 65vh;
         margin: 100px auto;
         background-color: white;
     }
@@ -526,7 +528,7 @@ footer {
 
     .somosParrafo {
         margin-top: 10%;
-        height: 70vh;
+        height: 65vh;
     }
 
     .quinesSomos {
