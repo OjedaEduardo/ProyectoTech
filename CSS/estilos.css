@@ -6,7 +6,7 @@
 }
 
 header {
-    min-width: 100vh;
+    min-width: 100%;
     background-color: rgb(238, 73, 87);
     display: grid;
     grid-template-columns: 10% 20% 70%;
@@ -90,7 +90,7 @@ a:hover {
 main {
     margin: 0%;
     padding: 0%;
-    min-width: 100vh;
+    min-width: 100%;
 }
 
 .divCarrito {
@@ -100,7 +100,6 @@ main {
 main h1 {
     margin-top: 5%;
     margin-left: 40%;
-
 }
 
 h2 {
@@ -116,9 +115,6 @@ h2 {
 
 }
 
-.tituloIndex {
-    margin-left: 25%;
-}
 
 /**/
 
@@ -273,7 +269,7 @@ button {
 
 /* PIE ----*/
 footer {
-    min-width: 100vh;
+    min-width: 100%;
     background-color: rgb(238, 73, 87);
     display: grid;
     grid-template-columns: 40% 40% 20%;
@@ -305,6 +301,7 @@ footer {
 
     /* header */
     header {
+        height: 15vh;
         grid-template-columns: 20% 80%;
         grid-template-rows: 40% 60%;
         grid-template-areas: "LoGo Titulo"
@@ -324,12 +321,12 @@ footer {
 
     .logo {
         margin: 0%;
-        width: 90px;
+        width: 50px;
     }
 
     .Titulo {
         grid-area: Titulo;
-        margin-top: 3%;
+        margin-top: 7%;
     }
 
     .dosPartes {
@@ -338,8 +335,8 @@ footer {
 
     header h1 {
         margin-top: 10px;
-        margin-left: 10%;
-        font-size: 40px;
+        margin-left: 4%;
+        font-size: 23px;
 
     }
 
@@ -361,13 +358,13 @@ footer {
 
     ul li {
         padding: 0px 15px;
-        margin-bottom: 1%;
+        margin-bottom: 0%;
         background-color: white;
     }
 
     .catalogos {
-        font-size: 25px;
-        margin-top: 3%;
+        font-size: 8px;
+        margin-top: 5%;
     }
 
     .carrito {
@@ -376,8 +373,8 @@ footer {
 
     .fa-solid.fa-cart-shopping {
         position: absolute;
-        margin-left: 50%;
-        margin-top: 2.5%;
+        margin-left: 27%;
+        margin-top: 1.5%;
 
     }
 
@@ -385,31 +382,25 @@ footer {
 
     /*index */
     main h1 {
-        margin-left: 30%;
-    }
-
-    .tituloIndex {
-        width: 600px;
-    }
-
-    .mainSuscr {
-        height: 150vh;
-
+        width: 150px;
+        font-size: 18px;
+        margin-left: 27%;
     }
 
     .relleno {
-        width: 650px;
+        margin-top: 0%;
+        width: 80%;
         margin-left: 10%;
     }
 
     .Libros {
-        grid-template-columns: repeat(2, 400px);
+        grid-template-columns: repeat(2, 170px);
         margin-left: 2%;
         margin-left: 2%;
     }
 
     .LibrosIndex {
-        grid-template-columns: repeat(4, 180px);
+        grid-template-columns: repeat(4, 80px);
         margin: 5%;
     }
 
@@ -419,30 +410,31 @@ footer {
     }
 
     .libro {
-        width: 380px;
+        width: 150px;
         margin: 5%;
         border-radius: 20px;
-        background-color: rgba(223, 150, 223, 0.089);
+        background-color: rgba(223, 150, 223, 0.068);
     }
 
 
     img {
-        width: 250px;
+        width: 100px;
         margin-left: 15%;
         padding-top: 10%;
     }
 
     .imgIndex {
-        width: 100px;
+        width: 50px;
     }
 
     h2 {
         margin-left: 30%;
+        font-size: 16px;
     }
 
     h3 {
         margin-left: 20%;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     p {
@@ -450,19 +442,14 @@ footer {
     }
 
     button {
-        margin-left: 32%;
-        width: 150px;
-        padding: 2.5%;
+        margin-left: 22%;
+        width: 100px;
+        padding: 1.5%;
     }
-
-    .tituloIndex {
-        margin-left: 15%;
-    }
-
 
     .masInfo {
         margin-top: 25px;
-        min-width: 500px;
+        min-width: 80%;
         height: 450px;
         margin-left: 2%;
         margin-right: 2%;
@@ -485,8 +472,8 @@ footer {
     }
 
     .fa-solid.fa-truck-arrow-right {
-        margin-top: 0%;
-        margin-left: 5%;
+        margin-top: 5%;
+        margin-left: 7%;
     }
 
     .i2 {
@@ -500,7 +487,7 @@ footer {
 
 
     .fa-solid.fa-envelope {
-        margin-top: 0%;
+        margin-top: 7%;
     }
 
     .pInfo {
@@ -509,30 +496,32 @@ footer {
 
 
     .presen {
-        width: 500px;
+        width: 70%;
         margin: 20px auto;
         font-size: 15px;
     }
 
     .suscricion {
-        width: 500px;
-        height: 65vh;
-        margin: 100px auto;
+        width: 100%;
+        margin: 5% auto;
         background-color: white;
+    }
+
+    .h1Sus {
+        margin-left: 25%;
     }
 
     .form {
         margin-top: 10%;
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     .somosParrafo {
         margin-top: 10%;
-        height: 65vh;
     }
 
     .quinesSomos {
-        width: 500px;
+        width: 80%;
         margin: 15px auto;
     }
 
@@ -540,7 +529,7 @@ footer {
 
     footer {
         background-color: rgba(238, 73, 87, 0.116);
-        height: 20vh;
+        height: 30vh;
         grid-template-columns: 100%;
         grid-template-rows: 30% 40% 30%;
         grid-template-areas: "qsomos"
@@ -563,7 +552,7 @@ footer {
     .qsomos {
         grid-area: qsomos;
         text-align: center;
-        margin-top: 2%;
+        margin-top: 3%;
 
     }
 
@@ -571,9 +560,5 @@ footer {
         margin: 0%;
     }
 
-    .footQuien {
-        position: fixed;
-        bottom: 0;
-    }
 
 }
