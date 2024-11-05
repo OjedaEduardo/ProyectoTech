@@ -48,6 +48,7 @@ ul li {
     margin-bottom: 1%;
     background-color: white;
     border-radius: 30% 10%;
+    font-family: "Itim", cursive;
 }
 
 ul li:hover {
@@ -359,13 +360,13 @@ footer {
     }
 
     ul li {
-        padding: 0px 12px;
+        padding: 0px 9px;
         margin-bottom: 0%;
-        background-color: white;
+        background-color: rgb(238, 73, 87);
     }
 
     .catalogos {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 5%;
     }
 
