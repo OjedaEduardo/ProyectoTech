@@ -13,46 +13,70 @@ header {
     grid-template-columns: 10% 20% 70%;
     grid-template-rows: 100%;
     height: 22vh;
-}
 
-nav {
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+        max-width: 100px;
+        border-radius: 70px;
 
-.logo {
-    margin-top: 20px;
-    margin-left: 20px;
-    max-width: 100px;
-    border-radius: 30px;
+    }
 
-}
+    h1 {
+        margin-top: 20px;
+        margin-left: 10%;
+        font-size: 50px;
+        font-family: "Kablammo", system-ui;
+    }
 
-header h1 {
-    margin-top: 20px;
-    margin-left: 10%;
-    font-size: 50px;
-    font-family: "Kablammo", system-ui;
-}
+    .tituloo:hover {
+        color: black;
+    }
 
-.tituloo:hover {
-    color: black;
-}
+    .fa-solid.fa-cart-shopping {
+        margin-left: 80%;
+        font-size: 60px;
+        color: rgba(10, 10, 10, 0.479);
+        position: fixed;
+        top: 10px;
+        left: 170px;
+    }
 
-ul li {
-    display: inline-block;
-    padding: 0px 25px;
-    margin-bottom: 1%;
-    background-color: white;
-    border-radius: 30% 10%;
-    font-family: "Itim", cursive;
-}
+    .fa-solid.fa-cart-shopping:hover {
+        color: black;
+    }
 
-ul li:hover {
-    box-shadow: 0px 0px 40px rgb(245, 75, 89);
+    .carito-catalogo {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50%;
+    }
+
+    .catalogos {
+        font-size: 25px;
+        margin-top: 0%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0px 25px;
+        margin-bottom: 1%;
+        background-color: white;
+        border-radius: 30% 10%;
+        font-family: "Itim", cursive;
+    }
+
+    ul li:hover {
+        box-shadow: 0px 0px 40px rgb(245, 75, 89);
+    }
 }
 
 a {
@@ -64,29 +88,6 @@ a:hover {
     color: rgb(245, 75, 89);
 }
 
-.dosPartes {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50%;
-}
-
-.catalogos {
-    font-size: 25px;
-    margin-top: 0%;
-}
-
-.fa-solid.fa-cart-shopping {
-    margin-left: 80%;
-    font-size: 60px;
-    color: rgba(10, 10, 10, 0.479);
-    position: fixed;
-    top: 10px;
-    left: 170px;
-}
-
-.fa-solid.fa-cart-shopping:hover {
-    color: black;
-}
 
 /* MAIN----*/
 main {
@@ -277,28 +278,30 @@ footer {
     display: grid;
     grid-template-columns: 40% 40% 20%;
     grid-template-rows: 100%;
+
+    .copy {
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+    .redes {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    .qsomos {
+        margin-top: 10%;
+        font-size: 20px;
+
+    }
+
+    .somos:hover {
+        color: white;
+        box-shadow: 0px 0px 40px gray;
+    }
 }
 
-.copy {
-    margin-top: 25px;
-    margin-left: 30px;
-}
 
-.redes {
-    margin-top: 10px;
-    font-size: 1.5rem;
-}
-
-.qsomos {
-    margin-top: 10%;
-    font-size: 20px;
-
-}
-
-.somos:hover {
-    color: white;
-    box-shadow: 0px 0px 40px gray;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -307,77 +310,74 @@ footer {
         height: 13vh;
         grid-template-columns: 20% 80%;
         grid-template-rows: 40% 60%;
-        grid-template-areas: "LoGo Titulo"
-            "dosPartes  dosPartes"
+        grid-template-areas: "div-logo Titulo"
+            "carito-catalogo carito-catalogo"
         ;
         position: sticky;
         top: 0;
         z-index: 1000;
-    }
 
+        .div-logo {
+            grid-area: div-logo;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
 
-    .LoGo {
-        grid-area: LoGo;
-        margin-top: 0px;
-        margin-left: 20px;
-    }
+        .logo {
+            margin: 0%;
+            width: 50px;
+        }
 
-    .logo {
-        margin: 0%;
-        width: 50px;
-    }
+        .Titulo {
+            grid-area: Titulo;
+            margin-top: 7%;
+        }
 
-    .Titulo {
-        grid-area: Titulo;
-        margin-top: 7%;
-    }
+        h1 {
+            margin-top: 10px;
+            margin-left: 4%;
+            font-size: 23px;
 
-    .dosPartes {
-        grid-area: dosPartes;
-    }
+        }
 
-    header h1 {
-        margin-top: 10px;
-        margin-left: 4%;
-        font-size: 23px;
+        .carito-catalogo {
+            grid-area: carito-catalogo;
+            grid-template-columns: 100% 0%;
+            grid-template-rows: 50%;
+            grid-template-areas: "div-catalogos carrito"
+            ;
 
-    }
+            .carrito {
+                grid-area: carrito;
+            }
 
-    .dosPartes {
-        grid-template-columns: 100% 0%;
-        grid-template-rows: 50%;
-        grid-template-areas: "ctlogos carrito"
-        ;
-    }
+            .fa-solid.fa-cart-shopping {
+                position: absolute;
+                margin-left: 27%;
+                margin-top: 1.5%;
 
-    .ctlogos {
-        grid-area: ctlogos;
-    }
+            }
 
-    nav {
-        padding-left: 3%;
-        padding-right: 0%;
-    }
+            .div-catalogos {
+                grid-area: div-catalogos;
+            }
 
-    ul li {
-        padding: 0px 9px;
-        margin-bottom: 0%;
-        background-color: rgb(238, 73, 87);
-    }
+            .catalogos {
+                font-size: 12px;
+                margin-top: 5%;
+            }
 
-    .catalogos {
-        font-size: 12px;
-        margin-top: 5%;
-    }
+            nav {
+                padding-left: 3%;
+                padding-right: 0%;
+            }
 
-    .carrito {
-        grid-area: carrito;
-    }
-
-    .fa-solid.fa-cart-shopping {
-        position: absolute;
-        margin-left: 27%;
-        margin-top: 1.5%;
+            ul li {
+                padding: 0px 9px;
+                margin-bottom: 0%;
+                background-color: rgb(238, 73, 87);
+            }
+        }
 
     }
 
@@ -529,29 +529,29 @@ footer {
         grid-template-areas: "qsomos"
             "redes"
             "copy";
-    }
 
-    .copy {
-        grid-area: copy;
-        text-align: center;
-        margin-top: 0%;
-    }
+        .copy {
+            grid-area: copy;
+            text-align: center;
+            margin-top: 0%;
+        }
 
-    .redes {
-        grid-area: redes;
-        text-align: center;
-        margin-top: 0%;
-    }
+        .redes {
+            grid-area: redes;
+            text-align: center;
+            margin-top: 0%;
+        }
 
-    .qsomos {
-        grid-area: qsomos;
-        text-align: center;
-        margin-top: 3%;
+        .qsomos {
+            grid-area: qsomos;
+            text-align: center;
+            margin-top: 3%;
 
-    }
+        }
 
-    .todosLosD {
-        margin: 0%;
+        .todosLosD {
+            margin: 0%;
+        }
     }
 
 
