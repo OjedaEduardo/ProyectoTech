@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Itim&family=Kablammo&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    min-width: 100%;
+    height: 20vh;
+    background-color: rgb(238, 73, 87);
+
+    .navbar {
+        .container-fluid {
+            display: grid;
+            grid-template-columns: 15% 85%;
+            grid-template-rows: 40% 20%;
+            grid-template-areas: "logo titulo "
+                "logo ul ";
+        }
+    }
+
+
+
+    .navbar-brand {
+        grid-area: logo;
+    }
+
+    .Titulo {
+        grid-area: titulo;
+    }
+
+    .collapse .navbar-collapse {
+        grid-area: ul;
+    }
+
+
+
+    .logo {
+        margin-top: 0px;
+        margin-left: 40px;
+        max-width: 100px;
+        border-radius: 70px;
+
+    }
+
+    h1 {
+        margin-top: 20px;
+        margin-left: 20%;
+        font-size: 50px;
+        font-family: "Kablammo", system-ui;
+        color: black;
+    }
+
+
+    .navbar-nav {
+        align-items: center;
+        padding-top: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0px 35px;
+        margin-bottom: 1%;
+        font-size: 20px;
+        font-family: "Itim", cursive;
+    }
+
+
+    .carrito {
+        margin-left: 75%;
+        font-size: 60px;
+        color: rgba(10, 10, 10, 0.479);
+        position: fixed;
+        top: 10px;
+        left: 150px;
+    }
+
+    .carrito:hover {
+        color: #000;
+        cursor: pointer;
+    }
+
+    .carrito1 {
+        display: none;
+    }
+
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* MAIN----*/
+main {
+    margin: 0%;
+    padding: 0%;
+    min-width: 100%;
+}
+
+.divCarrito {
+    height: 40vh;
+}
+
+main h1 {
+    margin-top: 5%;
+    margin-left: 30%;
+    font-family: "Itim", cursive;
+    color: #000;
+}
+
+h2 {
+    margin-top: 2%;
+    margin-left: 40%;
+
+}
+
+.tituloh2 {
+    margin-left: 30%;
+}
+
+h3 {
+    font-size: 16px;
+    color: #000;
+}
+
+/*index*/
+.relleno {
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+
+.corte {
+    width: 85%;
+}
+
+
+/**/
+
+.Libros {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+.LibrosIndex {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.libro {
+    margin: 10%;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.btn-violet {
+    color: #000;
+    border: double rgb(209, 170, 170);
+}
+
+.btn-violet:hover {
+    color: white;
+    background-color: rgb(202, 179, 228);
+}
+
+
+.libroIndex {
+    margin: 5%;
+}
+
+.masInfo {
+    min-width: 820px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: 100%;
+}
+
+.i1 {
+    background-color: rgba(142, 204, 142, 0.082);
+    padding: 20px;
+}
+
+.fa-solid.fa-truck-arrow-right {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+.i2 {
+    background-color: rgba(209, 170, 170, 0.103);
+    padding: 20px;
+}
+
+.i3 {
+    background-color: rgba(174, 171, 218, 0.089);
+    padding: 20px;
+}
+
+.fa-solid.fa-envelope {
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+/* */
+.presen {
+    width: 700px;
+    margin: 20px auto;
+    font-size: 21px;
+}
+
+
+/* suscricion*/
+.mainSuscr {
+    background-color: white;
+
+
+}
+
+.suscricion {
+    width: 1100px;
+    height: 500px;
+    margin: 40px auto;
+    margin-bottom: 2%;
+    background-color: rgba(243, 206, 209, 0.822);
+    border-radius: 20px;
+}
+
+
+.h1Sus {
+    margin: 0;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(245, 75, 89);
+    text-align: center;
+}
+
+.form {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#nombre {
+    border: dashed rgb(142, 204, 142);
+}
+
+#nombre:hover {
+    border: double rgb(142, 204, 142);
+}
+
+#apellido {
+    border: dashed rgb(209, 170, 170);
+}
+
+#apellido:hover {
+    border: double rgb(209, 170, 170);
+}
+
+#email {
+    border: dashed rgb(174, 171, 218);
+}
+
+#email:hover {
+    border: double rgb(174, 171, 218);
+}
+
+.btn-violrt {
+    color: white;
+    background-color: rgb(202, 179, 228);
+}
+
+.btn-violrt:hover {
+    background-color: rgb(181, 144, 224);
+}
+
+/* Quienes somos*/
+.somosParrafo {
+    width: 100%;
+}
+
+.quinesSomos {
+    width: 700px;
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+.logoSegundo {
+    width: 300px;
+    margin: 0% auto;
+}
+
+.logoEd {
+    width: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* PIE ----*/
+footer {
+    min-width: 100%;
+    background-color: rgb(238, 73, 87);
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 100%;
+
+    .copy {
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+    .redes {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    .qsomos {
+        margin-top: 10%;
+        font-size: 20px;
+
+    }
+
+    .somos:hover {
+        color: white;
+        box-shadow: 0px 0px 40px gray;
+    }
+
+    h4 {
+        color: #000;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+
+        .navbar {
+            .container-fluid {
+                grid-template-columns: 10% 70% 30%;
+                grid-template-rows: auto auto;
+                grid-template-areas: " logo titulo lineas";
+            }
+
+            .navbar-toggler {
+                grid-area: lineas;
+                width: 130px;
+            }
+
+        }
+
+
+        .logo {
+            margin: 0px;
+        }
+
+        .Titulo {
+            margin-top: 0%;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 10px;
+            margin-left: 4%;
+            font-size: 40px;
+
+        }
+
+        .navbar-nav {
+            width: 700px;
+            margin-top: 5px;
+        }
+
+        ul li {
+            margin-left: 0%;
+            margin-top: 3%;
+            padding: 0px 15px;
+            margin-bottom: 0%;
+            font-size: 25px;
+            text-align: center;
+
+        }
+
+        ul li:hover {
+            box-shadow: 0px 0px 40px rgb(245, 75, 89);
+        }
+
+        .carrito1 {
+            display: block;
+        }
+
+        .carrito {
+            display: none;
+        }
+
+
+    }
+
+    /*MAin */
+
+    /*index */
+    main h1 {
+        width: 50%;
+        font-size: 30px;
+        margin-left: 30%;
+    }
+
+    .tituloh2 {
+        font-size: 22px;
+    }
+
+    .relleno {
+        margin-top: 0%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Libros {
+        grid-template-columns: repeat(2, 350px);
+
+
+    }
+
+    .LibrosIndex {
+        grid-template-columns: repeat(4, 160px);
+        margin: 5%;
+    }
+
+    .libroIndex {
+        margin: 3%;
+        margin-left: 30%;
+    }
+
+    .libro {
+        width: 280px;
+        margin: 0%;
+        background-color: rgba(235, 176, 235, 0.021);
+
+    }
+
+
+
+    .imgIndex {
+        width: 100px;
+    }
+
+    h2 {
+        margin-left: 45%;
+        font-size: 16px;
+    }
+
+    h3 {
+        margin-top: 5%;
+        margin-left: 20%;
+        font-size: 10px;
+
+    }
+
+    p {
+        margin-left: 32%;
+    }
+
+    .btn-violet {
+        width: 250px;
+    }
+
+    .masInfo {
+        margin-top: 25px;
+        min-width: 80%;
+        height: 450px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0%;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+        text-align: center;
+
+        h3 {
+            margin-left: 0%;
+            color: #000;
+            font-size: 16px;
+        }
+
+        p {
+            margin-left: 0%;
+        }
+    }
+
+
+
+    .fa-solid.fa-truck-arrow-right {
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+
+    .fa-solid.fa-envelope {
+        margin-top: 7%;
+    }
+
+    .pInfo {
+        margin-left: 0%;
+    }
+
+
+    .presen {
+        width: 70%;
+        margin: 20px auto;
+        font-size: 15px;
+    }
+
+    .suscricion {
+        width: 100%;
+        margin: 5% auto;
+        background-color: white;
+    }
+
+    .h1Sus {
+        margin-left: 25%;
+    }
+
+    .form {
+        margin-top: 10%;
+        font-size: 1rem;
+    }
+
+    .enviarform {
+        margin-left: 2%;
+    }
+
+    .somosParrafo {
+        margin-top: 10%;
+    }
+
+    .quinesSomos {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    /* footer*/
+
+    footer {
+        background-color: rgba(238, 73, 87, 0.116);
+        height: 30vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 40% 30%;
+        grid-template-areas: "qsomos"
+            "redes"
+            "copy";
+
+        .copy {
+            grid-area: copy;
+            text-align: center;
+            margin-top: 0%;
+        }
+
+        .redes {
+            grid-area: redes;
+            text-align: center;
+            margin-top: 0%;
+        }
+
+        .qsomos {
+            grid-area: qsomos;
+            text-align: center;
+            margin-top: 3%;
+
+        }
+
+        .todosLosD {
+            margin: 0%;
+        }
+    }
+}
