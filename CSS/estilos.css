@@ -80,7 +80,7 @@ header {
     }
 
     .carrito:hover {
-        color: #000;
+        color: black;
         cursor: pointer;
     }
 
@@ -176,8 +176,9 @@ h3 {
 }
 
 .btn-violet:hover {
-    color: white;
-    background-color: rgb(202, 179, 228);
+    color: rgb(202, 179, 228);
+    border: double rgb(202, 179, 228);
+
 }
 
 
@@ -441,6 +442,7 @@ footer {
     .Libros {
         grid-template-columns: repeat(2, 200px);
         margin: 0;
+        margin-left: 4%;
 
     }
 
@@ -458,7 +460,7 @@ footer {
         width: 150px;
         margin: 5%;
 
-        background-color: rgba(238, 187, 238, 0.137);
+        background-color: rgba(238, 187, 238, 0.075);
 
     }
 
@@ -492,6 +494,7 @@ footer {
 
     .card-text {
         font-size: 15px;
+        margin-left: 2%;
     }
 
     p {
