@@ -79,18 +79,21 @@
                 Encuentra la
                 nueva novela que estás buscando para leer y
                 descubre los últimos lanzamientos y publicaciones de libros.</p>
-            <form>
-                <div class="form"><label for="">📗Nombre📗</label>
-                    <input type="text" placeholder="Ingrese su nombre:" required name="nombre" id="nombre">
+            <form action="" id="miFormulario">
+                <div class="form"><label for="nombre">📗Nombre📗</label>
+                    <input type="text" placeholder="Ingrese su nombre:" name="nombre" id="nombre">
+                    <small class="text-danger d-none" id="errorNombre">Ingrese un nombre</small>
                 </div>
-                <div class="form"><label for="">📕Apellido📕</label>
-                    <input type="text" placeholder="Ingrese su apellido: " required name="apellido" id="apellido">
+                <div class="form"><label for="apellido">📕Apellido📕</label>
+                    <input type="text" placeholder="Ingrese su apellido: " name="apellido" id="apellido">
+                    <small class="text-danger d-none" id="errorApellido">Ingrese su apellido</small>
                 </div>
-                <div class="form"><label for="">📘Email📘</label>
-                    <input type="email" name="email" id="email" required placeholder="Ingrese un email valido">
+                <div class="form"><label for="email">📘Email📘</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese un email valido">
+                    <small class="text-danger d-none" id="errorEmail">Ingrese un mail valido</small>
                 </div>
                 <div class="form">
-                    <button type="button" class="btn btn-violrt"> Enviar</button>
+                    <button type="submit" class="btn btn-violrt"> Enviar</button>
                 </div>
             </form>
         </section>
@@ -127,6 +130,7 @@
         </div>
     </footer>
     <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/formulario.js"></script>
 </body>
 
 </html>

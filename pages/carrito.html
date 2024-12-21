@@ -73,7 +73,23 @@
 
     </header>
     <main>
-        <div class="divCarrito"></div>
+        <section>
+            <h1> Carrito de Producto</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaCarrito">
+                    <!-- fila producto-->
+                </tbody>
+            </table>
+            <div>
+                <h3 class="h3-tabla">Total: $<span id="totalCarrito">0.00</span></h3>
+            </div>
+        </section>
 
         <div class="masInfo">
             <div class="i1">
@@ -107,6 +123,7 @@
         </div>
     </footer>
     <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/mostrar_carrito.js"></script>
 </body>
 
 </html>
